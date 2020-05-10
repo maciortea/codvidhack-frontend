@@ -1,0 +1,25 @@
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.bg {
+  background-image: url('../assets/background_contrast.png');
+  height: 94vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  max-width: 700px;
+  color: #ffffff;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: underline;
+}
